@@ -1,0 +1,63 @@
+:root {
+  --primary-font: "font", sans-serif;
+  --alt-font: "font", sans-serif;
+}
+
+@font-face {
+  font-family: "font";
+  src: url("fonts/font-400.ttf") format("ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "font";
+  src: url("fonts/font-700.ttf") format("ttf");
+  font-weight: 700;
+}
+
+body {
+  background-color: #e5ddd5;
+  font-family: "font", sans-serif;
+  margin: 0;
+  padding: 20px;
+  color: #111;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.item {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 24px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.item img {
+  max-width: 560px;
+  height: auto;
+  display: block;
+  margin: 0 auto 12px;
+  border-radius: 6px;
+}
+
+.description p:first-child {
+  font-size: 0.75em;
+  color: #777;
+  margin: 0 0 10px 0;
+  line-height: 1.4;
+}
+
+.description p {
+  margin: 0 0 4px 0;
+  line-height: 1.2;
+}
+
+.pub-number {
+  font-weight: 400;
+  color: #777;
+  margin-right: 0.4em;
+}
